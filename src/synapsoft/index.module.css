@@ -1,0 +1,187 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5mm 7mm;
+  width: 9cm;
+  height: 5cm;
+  font-size: 2mm;
+  font-style: normal;
+  color: #000;
+  background-color: #fff;
+}
+
+.front .logo {
+  position: absolute;
+  width: 25mm;
+  top: 4mm;
+  right: 6mm;
+}
+.front .name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 3.5mm;
+  letter-spacing: 2mm;
+}
+.front .a .slash {
+  margin: 0 0.2em;
+}
+.front .b {
+  margin: 0.5em 0;
+}
+.front .c {
+  display: flex;
+  margin: 0;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+.front .c dt {
+  display: inline;
+  margin-right: 0.75em;
+}
+.front .c dd {
+  display: inline;
+  margin: 0;
+  font-weight: bold;
+  color: #4594c9;
+}
+.front .d {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back {
+  padding: 6mm 12mm;
+}
+.back .a {
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+  font-size: 6mm;
+}
+.back .a .synap {
+  margin-right: 0.2em;
+  font-weight: lighter;
+}
+.back .a .office {
+  font-weight: bold;
+  color: #008277;
+}
+.back .b {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.back .b .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 11mm;
+  height: 11mm;
+  border-radius: 0.75mm;
+  background-color: black;
+}
+.back .b .box .icon {
+  margin-top: 2mm;
+  width: 6mm;
+  height: 5mm;
+}
+.back .b .word {
+  background-color: #2c73b9;
+}
+.back .b .word .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.back .b .word .icon div {
+  height: 1.1mm;
+  background-color: #fff;
+}
+.back .b .slide {
+  background-color: #e27035;
+}
+.back .b .slide .icon {
+  display: flex;
+  justify-content: space-between;
+}
+.back .b .slide .icon .a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1.1mm;
+}
+.back .b .slide .icon .a div {
+  height: 1.1mm;
+  background-color: #fff;
+}
+.back .b .slide .icon .b {
+  box-sizing: border-box;
+  flex-grow: 1;
+  margin-left: 0.5mm;
+  border: 1.1mm solid #fff;
+}
+.back .b .cell {
+  background-color: #33972e;
+}
+.back .b .cell .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.back .b .cell .icon div {
+  display: flex;
+  justify-content: space-between;
+  height: 1.1mm;
+}
+.back .b .cell .icon div div {
+  width: 1.6mm;
+  background-color: #fff;
+}
+.back .b .form {
+  background-color: #af348e;
+}
+.back .b .form .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.back .b .form .icon div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .b .form .icon .checkbox {
+  position: relative;
+  box-sizing: border-box;
+  width: 2mm;
+  height: 2mm;
+  border: 0.3mm solid #fff;
+}
+.back .b .form .icon .check {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0.3mm;
+  height: 0.6mm;
+  border-bottom: 0.3mm solid #fff;
+  border-right: 0.3mm solid #fff;
+}
+.back .b .form .icon .line {
+  margin-left: 0.5mm;
+  flex-grow: 1;
+  height: 1.1mm;
+  background-color: #fff;
+}
+.back .b .box .text {
+  margin-bottom: 1mm;
+}
+.back .c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

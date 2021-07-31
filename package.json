@@ -1,0 +1,39 @@
+{
+  "name": "namecards",
+  "version": "0.0.0",
+  "description": "Namecard components",
+  "author": "disjukr",
+  "license": "(MIT OR Apache-2.0)",
+  "repository": "disjukr/namecards",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.tsx",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "prepare": "run-s build"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.38",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.7",
+    "microbundle-crl": "^0.13.10",
+    "cross-env": "^7.0.2",
+    "gh-pages": "^2.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "typescript": "^3.7.5"
+  },
+  "files": [
+    "dist"
+  ]
+}
