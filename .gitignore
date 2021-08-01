@@ -3,6 +3,7 @@ node_modules
 build
 dist
 .rpt2_cache
+.docz
 
 .DS_Store
 

@@ -1,6 +1,6 @@
 # namecards
 
-> Namecard components
+Namecard components for ReactJS
 
 [![NPM](https://img.shields.io/npm/v/namecards.svg)](https://www.npmjs.com/package/namecards)
 
